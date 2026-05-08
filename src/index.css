@@ -1,14 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
   --font-serif: 'Cormorant Garamond', serif;
   --font-sans: 'Montserrat', sans-serif;
 }
 
-body {
-  @apply bg-white text-obsidian overflow-x-hidden;
+@layer base {
+  body {
+    @apply bg-white text-obsidian overflow-x-hidden;
+  }
 }
 
 /* Custom scrollbar for luxury feel */
