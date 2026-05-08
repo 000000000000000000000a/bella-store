@@ -1,4 +1,4 @@
-import { Instagram, Facebook, ArrowRight } from "lucide-react";
+import { Camera, Share2, ArrowRight } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -35,10 +35,10 @@ const Footer = () => {
           <h3 className="font-serif text-lg tracking-[0.2em] text-gold uppercase">Follow Us</h3>
           <div className="flex space-x-8">
             <a href="#" className="hover:text-gold transition-all duration-300">
-              <Instagram size={22} strokeWidth={1} />
+              <Camera size={22} strokeWidth={1} />
             </a>
             <a href="#" className="hover:text-gold transition-all duration-300">
-              <Facebook size={22} strokeWidth={1} />
+              <Share2 size={22} strokeWidth={1} />
             </a>
           </div>
         </div>

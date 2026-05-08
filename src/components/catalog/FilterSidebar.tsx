@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { X, ChevronDown } from "lucide-react";
 
 interface FilterSidebarProps {

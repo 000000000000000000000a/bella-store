@@ -3,7 +3,6 @@
 import Hero from "../components/landing/Hero";
 import FeaturedCollections from "../components/landing/FeaturedCollections";
 import Reviews from "../components/landing/Reviews";
-import { motion } from "framer-motion";
 
 const Home = () => {
   return (

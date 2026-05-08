@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { MessageCircle, Info } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 import { Product } from "../../data/products";
 
 interface ProductGridProps {
