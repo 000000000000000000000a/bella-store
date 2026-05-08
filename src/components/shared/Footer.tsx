@@ -1,4 +1,4 @@
-import { Camera, Share2, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -35,10 +35,18 @@ const Footer = () => {
           <h3 className="font-serif text-lg tracking-[0.2em] text-gold uppercase">Follow Us</h3>
           <div className="flex space-x-8">
             <a href="#" className="hover:text-gold transition-all duration-300">
-              <Camera size={22} strokeWidth={1} />
+              {/* Instagram */}
+              <svg width={22} height={22} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1} strokeLinecap="round" strokeLinejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/>
+              </svg>
             </a>
             <a href="#" className="hover:text-gold transition-all duration-300">
-              <Share2 size={22} strokeWidth={1} />
+              {/* Facebook */}
+              <svg width={22} height={22} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
             </a>
           </div>
         </div>
