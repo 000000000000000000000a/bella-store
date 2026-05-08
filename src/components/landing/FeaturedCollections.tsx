@@ -50,7 +50,7 @@ const FeaturedCollections = () => {
               className="text-obsidian font-serif text-4xl md:text-6xl tracking-tight"
             >
               Featured <span className="italic">Collections</span>
-            </h2 >
+            </motion.h2>
           </div>
           
           <motion.div
