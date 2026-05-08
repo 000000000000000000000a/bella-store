@@ -1,0 +1,17 @@
+﻿# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+# Next.js Build
+/.next/
+/out/
+# Production
+/build
+dist/
+# Debug logs
+npm-debug.log*
+# OS Metadata
+.DS_Store
+# IDE Settings
+.vscode/
+.idea/
